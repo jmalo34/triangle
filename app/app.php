@@ -38,7 +38,7 @@
         </html>
         ";
     });
-
+//format tri_type page with bootstrap. idk rn how to use it and get the html and needed functions to display and what not. aye!
     $app->get("/tri_type", function()
     {
         $my_triangle = new Triangle($_GET['first_side'], $_GET['second_side'], $_GET['third_side']);
